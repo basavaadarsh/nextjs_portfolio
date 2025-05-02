@@ -13,21 +13,21 @@ export const personalInfo = {
 export const education = [
   {
     degree: "B.Tech in CSE (AI & ML)",
-    institution: "Kalasalingam Academy",
+    institution: "Kalasalingam Academy Of Research And Education",
     percentage: "86.1%",
-    year: "2020-2024",
+    year: "2021-2025",
   },
   {
     degree: "Pre-University",
-    institution: "Vignan Co-Operative JC",
+    institution: "Vignan Co-Operative Junior College",
     percentage: "93.1%",
-    year: "2018-2020",
+    year: "2019-2021",
   },
   {
     degree: "Secondary",
     institution: "Adarsha High School",
     percentage: "95%",
-    year: "2018",
+    year: "2019",
   },
 ];
 
