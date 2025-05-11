@@ -74,12 +74,6 @@ export const projects = [
     github: "https://github.com/basavaadarsh/AI-Powered-News-Paper-Summerizer",
   },
   {
-    name: "Url_Shortner",
-    description: "A URL shortening service similar to bit.ly.",
-    tech: ["JavaScript", "Node.js", "Express"],
-    github: "https://github.com/basavaadarsh/Url_Shortner",
-  },
-  {
     name: "Data Assistance Through AI and Streamlit",
     description: "AI-powered data analysis tool with Streamlit integration and LangChain.",
     tech: ["Python", "Streamlit", "LangChain"],
@@ -92,12 +86,6 @@ export const projects = [
     github: "https://github.com/basavaadarsh/yolov9_flask_app_ultralytics_members",
   },
   {
-    name: "AI_assistance",
-    description: "An AI assistance tool for various tasks.",
-    tech: ["Python", "AI", "NLP"],
-    github: "https://github.com/basavaadarsh/AI_assistance",
-  },
-  {
     name: "Nutrition_Calculater",
     description: "A calculator for tracking nutritional information of food items.",
     tech: ["Python", "Data Analysis"],
@@ -108,12 +96,12 @@ export const projects = [
 export const skills = [
   {
     category: "Languages & Frameworks",
-    items: ["Python", "Java", "JavaScript", "React", "Next.js"],
+    items: ["Python", "Java", "JavaScript", "Next.js"],
     icon: "Code"
   },
   {
     category: "Web Technologies",
-    items: ["HTML5", "CSS3", "TypeScript", "Tailwind CSS"],
+    items: ["HTML5", "CSS3", "TypeScript"],
     icon: "Globe"
   },
   {
@@ -123,13 +111,8 @@ export const skills = [
   },
   {
     category: "AI & Data",
-    items: ["Machine Learning", "Data Analysis", "Neural Networks"],
+    items: ["Machine Learning", "Data Analysis"],
     icon: "Brain"
-  },
-  {
-    category: "Cloud & DevOps",
-    items: ["AWS", "Docker", "CI/CD"],
-    icon: "Cloud"
   }
 ];
 
