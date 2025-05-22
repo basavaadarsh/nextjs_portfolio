@@ -20,13 +20,15 @@ export default function AboutPage() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-5xl mx-auto">
           <ScrollReveal direction="right">
-            <div className="relative aspect-square rounded-2xl overflow-hidden shadow-xl">
-              <Image
+            <div className="w-full aspect-square bg-gradient-to-br from-primary/20 to-primary/5 rounded-2xl flex items-center justify-center">
+              <div className="w-4/5 h-4/5 relative">
+                <Image
                 src="/images/adarsh.jpg"
-                alt="Profile"
-                fill
-                className="object-cover"
-              />
+                  alt="Profile"
+                  fill
+                  className="object-cover rounded-xl"
+                />
+              </div>
             </div>
           </ScrollReveal>
 
